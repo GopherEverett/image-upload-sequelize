@@ -2,8 +2,6 @@ const express = require('express')
 const cors = require('cors')
 const logger = require('morgan')
 const app = express()
-const multer = require('multer')
-const path = require('path')
 const PORT = process.env.PORT || 3001
 const imageController = require('./controllers/imageController')
 
